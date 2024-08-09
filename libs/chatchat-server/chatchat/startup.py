@@ -1,3 +1,11 @@
+'''
+Author: 郑龙
+Date: 2024-08-06 16:00:41
+LastEditors: 郑龙
+LastEditTime: 2024-08-09 17:20:33
+FilePath: \libs\chatchat-server\chatchat\startup.py
+Description: 
+'''
 import asyncio
 import logging
 import logging.config
@@ -110,7 +118,7 @@ def run_webui(
         "client_displayEnabled": None,
         "client_showErrorDetails": None,
         "client_toolbarMode": None,
-        "client_showSidebarNavigation": None,
+        "client_showSidebarNavigation": False,
         "runner_magicEnabled": None,
         "runner_installTracer": None,
         "runner_fixMatplotlib": None,
